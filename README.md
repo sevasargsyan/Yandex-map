@@ -1,0 +1,1 @@
+<h1>Yandex map</h1>
