@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>YaMaps</title>
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+	
+	<div id="map-container">
+		<div id="map"></div>
+		<div id="zoom-controls" class="controls zoom-controls">
+			<div id="zoom-in" class="control-button">+</div>
+			<div id="zoom-out" class="control-button">-</div>
+		</div>
+		<div class="controls search-controls">
+			<input type="text" id="search-query" placeholder="Найти">
+			<div class="control-button search-button">Показать</div>
+		</div>
+		<div id="draw-contur" class="controls control-button draw-contur">Нарисовать контур</div>
+		<div id="select-direction" class="controls control-button select-direction">Выбрать направление</div>
+		<div id="fullscreen" class="controls control-button fullscreen" data-full-text="Свернуть карту" data-small-text="Развернуть карту на весь экран">Развернуть карту на весь экран</div>
+	</div>
+	
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script src="https://yandex.st/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="./js/scripts.js"></script>
+</body>
+</html>
